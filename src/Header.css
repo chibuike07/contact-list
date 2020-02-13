@@ -1,0 +1,82 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 0 13% 0;
+  background-color: black;
+  color: #fff;
+  height: 30%;
+  transform: skewY(-7deg);
+  max-width: 100%;
+}
+header::before {
+  position: absolute;
+  content: "";
+  width: 50%;
+  height: 15vh;
+  background-color: black;
+  transform: skewY(7deg);
+  top: -23%;
+  left: 0px;
+}
+header::after {
+  position: absolute;
+  content: "";
+  width: 15px;
+  height: 40px;
+  background-color: black;
+  top: 25vh;
+  left: 0px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.navbar {
+  display: flex;
+  list-style: none;
+  transform: skewY(7deg);
+  font-weight: bolder;
+  font-size: larger;
+}
+.navbar li {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 15%;
+}
+.navbar li a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.navbar li a:hover {
+  border-bottom: 2px solid red;
+  padding: 10px;
+}
+header h1 {
+  transform: skewY(6deg);
+}
+
+@media screen and (max-width: 500px) {
+  .navbar li {
+    padding-top: 40%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .navbar li {
+    margin-top: -5%;
+    margin-right: 10%;
+    font-size: larger;
+  }
+  h1 {
+    margin-left: -20%;
+    margin-top: 2%;
+    font-size: larger;
+  }
+}
+@media screen and (min-width: 700px) {
+  .navbar li {
+    font-size: xx-large;
+  }
+  h1 {
+    font-size: xx-large;
+  }
+}

@@ -1,0 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+.html {
+  text-rendering: optimizeLegibility;
+}
+.app {
+  background: linear-gradient(orange, orangered);
+  height: 90vh;
+  overflow-y: scroll;
+  width: 100%;
+}

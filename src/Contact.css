@@ -1,0 +1,64 @@
+.list {
+  width: 80%;
+  position: relative;
+  left: 7.5%;
+}
+.list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  height: 7vh;
+}
+li button {
+  background-color: black;
+  color: #fff;
+  width: 10%;
+  height: 7vh;
+  font-size: large;
+}
+li .span1 {
+  width: 15%;
+  padding-left: 3%;
+}
+strong {
+  display: none;
+}
+@media screen and (max-width: 500px) {
+  .list {
+    width: 90%;
+    margin-left: -7%;
+    /* margin-top: 7%; */
+  }
+  .list li {
+    font-size: larger;
+    font-weight: bolder;
+  }
+  li button {
+    width: 20%;
+    font-size: larger;
+    font-weight: bolder;
+  }
+
+  strong {
+    display: block;
+  }
+  b {
+    display: none;
+  }
+}
+@media screen and (max-width: 770px) {
+  .list {
+    width: 90%;
+    margin-left: -7%;
+  }
+  .list li {
+    font-size: x-large;
+    font-weight: bolder;
+  }
+  li button {
+    width: 20%;
+    font-size: xx-large;
+    font-weight: bolder;
+  }
+}

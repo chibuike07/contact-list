@@ -13,17 +13,17 @@ let contacts = [
   {
     id: 2,
     name: "chima",
-    phone: "222 333 654"
+    phone: "222333654"
   },
   {
     id: 3,
     name: "wills",
-    phone: "098 322 999"
+    phone: "098322999"
   },
   {
     id: 4,
     name: "baller",
-    phone: "222 111 000"
+    phone: "222111000111"
   }
 ];
 ReactDOM.render(<App contacts={contacts} />, document.getElementById("root"));
